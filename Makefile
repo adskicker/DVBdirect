@@ -13,3 +13,7 @@ INCLUDES  := -Isyscpp/include
 LDLIBS    := -lpthread
 
 include syscpp/posix.mk
+
+install:
+	@cp dvbjet /usr/local/bin/
+

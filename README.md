@@ -40,5 +40,6 @@ in Ubuntu or *linux-glibc-devel* in Suse):
  $ git clone --recursive https://github.com/lightful/DVBdirect
  $ cd DVBdirect
  $ make
+ $ sudo make install
  ```
  Please, do not forget the *--recursive* option to download a required submodule (otherwise the build would fail).
