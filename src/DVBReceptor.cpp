@@ -21,8 +21,9 @@
 #include <linux/dvb/dmx.h>
 
 #include <sys/stat.h>
+#include <sys/ioctl.h>
 #include <fcntl.h>
-#include <stropts.h>
+//#include <stropts.h>
 #include <unistd.h>
 
 #include <algorithm>
